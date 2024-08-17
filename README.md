@@ -10,14 +10,16 @@ Before running the project, make sure to install all necessary dependencies. Run
 
 ```bash
 npm install
-
+```
 
 ### 2. Set Up Environment Variables
+
 The application requires a Supabase API key and URL to function properly. Follow these steps to set them up:
 
 Create a .env file in the root of the project.
 Add the following environment variables to the .env file. Replace the placeholders with your actual Supabase API key and URL:
-bash
-Copiar código
+
+```bash
 REACT_APP_SUPABASE_URL=<your-supabase-url>
 REACT_APP_SUPABASE_ANON_KEY=<your-supabase-anon-key>
+```

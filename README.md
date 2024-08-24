@@ -23,3 +23,5 @@ Add the following environment variables to the .env file. Replace the placeholde
 REACT_APP_SUPABASE_URL=<your-supabase-url>
 REACT_APP_SUPABASE_ANON_KEY=<your-supabase-anon-key>
 ```
+
+[Ver el video en Google Drive](https://drive.google.com/file/d/1rYHlZE5bFFdgFco2Hhd-svu7oDnQ4Gzo/preview)

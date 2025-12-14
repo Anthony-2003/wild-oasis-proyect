@@ -1,0 +1,14 @@
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # una vez al día UTC
+  workflow_dispatch: # permite ejecutarlo manualmente
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase Edge Function
+        run: |
+          curl -X GET https://kpxvqgxjmicjpojyfwgy.supabase.co/functions/v1/quick-action
